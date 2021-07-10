@@ -191,6 +191,10 @@ section, .section  {
   margin: 0 auto;
 }
 
+article .button {
+  margin: var(--padding) 0 0;
+}
+
 .button:hover {
   border: 0.1em  solid var(--accent);
   color: var(--accent);
