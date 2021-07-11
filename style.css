@@ -58,8 +58,13 @@ p {
 }
 
 nav {
+  width: 95%;
+}
+
+nav .flex {
   align-items: center;
   justify-content: flex-end;
+  gap: 1em;
 }
 
 
@@ -93,6 +98,10 @@ input:not(:placeholder-shown):invalid {
 header {
   background-image: url('./images/desktop/image-header.jpg');
   width: 100%;
+}
+
+.logo {
+  margin-inline-end: auto;
 }
 
 .logo .img {
@@ -258,7 +267,6 @@ section, .section  {
   padding: calc(var(--padding)/4);
   text-align: center;
   max-width: 12em;
-  margin: 0 auto;
 }
 
 .article1 article, .article2 article {
