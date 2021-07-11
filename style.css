@@ -58,6 +58,7 @@ p {
 }
 
 nav {
+  align-items: center;
   justify-content: flex-end;
 }
 
@@ -77,11 +78,14 @@ input:not(:placeholder-shown):invalid {
 }
 
 
-.hero {
+.bg-image {
   background-image: url('./images/drawers.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 65% 50%;
+  background-position: 50% 50%;
+}
+
+.hero {
   min-height:33vh;
   min-width: 300px;
 }
@@ -192,7 +196,7 @@ section, .section  {
 }
 
 article .button {
-  margin: var(--padding) 0 0;
+  margin: 0;
 }
 
 .button:hover {
