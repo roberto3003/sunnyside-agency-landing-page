@@ -95,6 +95,14 @@ header {
   width: 100%;
 }
 
+.logo .img {
+  height: 1.75em;
+}
+
+.logo .img img {
+  height: 100%;
+}
+
 article {
   padding: calc(var(--padding)*2);
 }
@@ -225,6 +233,12 @@ img,
 }
 
 
+.grid-center {
+  display: grid;
+  place-items: center;
+}
+
+
 
 .flex-center {
   display: flex;
@@ -295,6 +309,7 @@ a:visited {
 .shadow:hover {
   box-shadow: var(--shadow-deep);
 }
+
 
 .img-small {
   height: 3em;
