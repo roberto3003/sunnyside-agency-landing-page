@@ -79,7 +79,6 @@ input:not(:placeholder-shown):invalid {
 
 
 .bg-image {
-  background-image: url('./images/drawers.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -89,6 +88,49 @@ input:not(:placeholder-shown):invalid {
   min-height:33vh;
   min-width: 300px;
 }
+
+
+header {
+  background-image: url('./images/desktop/image-header.jpg');
+}
+
+.article1 .bg-image {
+  background-image: url('./images/desktop/image-transform.jpg');
+}
+
+.article2 .bg-image {
+  background-image: url('./images/desktop/image-stand-out.jpg');
+}
+
+.article-left {
+background-image: url('./images/desktop/image-graphic-design.jpg');
+}
+
+.article-right{
+background-image: url('./images/desktop/image-photography.jpg');
+}
+
+.pictures1 .left{
+background-image: url('./images/desktop/image-gallery-milkbottles.jpg');
+}
+
+.pictures1 .right{
+background-image: url('./images/desktop/image-gallery-orange.jpg');
+}
+
+
+.pictures2 .left{
+background-image: url('./images/desktop/image-gallery-cone.jpg');
+}
+
+.pictures2 .right{
+background-image: url('./images/desktop/image-gallery-sugarcubes.jpg');
+}
+
+
+
+
+
 
 .logo {
   margin-inline-end: auto;
