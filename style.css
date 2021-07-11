@@ -1,6 +1,6 @@
 :root {
   --padding: 1em;
-  --gap: 4em;
+  --gap: 0em;
   --font-size: clamp(1rem, 1.25vw, 2.5rem);
   --letter-spacing: 0.3em;
 }
@@ -82,17 +82,17 @@ input:not(:placeholder-shown):invalid {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  min-height: 33vh;
+  min-height: 50vh;
 }
 
 .hero {
-  min-height:33vh;
   min-width: 300px;
 }
 
 
 header {
   background-image: url('./images/desktop/image-header.jpg');
+  width: 100%;
 }
 
 .article1 .bg-image {
@@ -109,6 +109,11 @@ background-image: url('./images/desktop/image-graphic-design.jpg');
 
 .article-right{
 background-image: url('./images/desktop/image-photography.jpg');
+}
+
+.pictures-main .bg-image {
+  min-height: 25vh;
+  min-width: 25vw;
 }
 
 .pictures1 .left{
@@ -149,6 +154,7 @@ footer .wrapper {
   width: 80vw; 
   min-width: 320px;
   padding: var(--padding) 0;
+  margin: 0 auto;
 }
 
 .grid {
