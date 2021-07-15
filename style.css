@@ -57,7 +57,6 @@ p {
   max-width: 60em;
 }
 
-/*
 nav {
   width: 95%;
 }
@@ -67,7 +66,13 @@ nav .flex {
   justify-content: flex-end;
   gap: 1em;
 }
-*/
+
+
+/* ****************** Mobile Navigation  ****************************/
+
+/* ****************************************************************** */
+
+
 
 hr {
   margin-block-end: calc(var(--padding)*3);
