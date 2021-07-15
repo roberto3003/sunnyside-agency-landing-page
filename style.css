@@ -3,6 +3,7 @@
   --gap: 0em;
   --font-size: clamp(1rem, 1.25vw, 2.5rem);
   --letter-spacing: 0.3em;
+  --nav-icon: 3em;
 }
 
 /* dark-theme colors */
