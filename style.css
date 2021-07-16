@@ -84,6 +84,15 @@ header {
   width: 100%;
 }
 
+.skip-main {
+position: absolute;
+left: -999px;
+}
+
+.skip-main:focus {
+  position: initial;
+}
+
 .bg-image {
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,8 +131,6 @@ header {
 .main-nav .links {
   gap: 1em;
 }
-
-
 
 .main-nav .links > * {
   position: absolute;
