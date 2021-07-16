@@ -195,6 +195,7 @@ label input:checked ~ * {
   height: 15%;
 }
 
+/*
 .frame {
   margin-inline-start: auto;
   display: none;
@@ -202,12 +203,17 @@ label input:checked ~ * {
   aspect-ratio: 1/1;
   border: 1px solid currentcolor;
 }
+*/
 
 .crossbars {
+  margin-inline-start: auto;
+  display: none;
   position: fixed;
+  top: var(--padding);
+  right: var(--padding);
 }
 
-.crossbars span {
+.crossbars a {
   font-size: 2em;
 }
 
