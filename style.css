@@ -177,18 +177,6 @@ label input {
   display: none;
 }
 
-/*
-.hamburger {
-  margin-inline-start: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  height: var(--nav-icon);
-  aspect-ratio: 1/1;
-}
-*/
-
 .hamburger span {
   font-size: 2em;
 }
@@ -216,38 +204,12 @@ label input:checked ~ * {
 }
 
 .crossbars {
-  position: absolute;
+  position: fixed;
 }
 
 .crossbars span {
   font-size: 2em;
 }
-
-/*
-.crossbars {
-  position: fixed;
-  height: var(--nav-icon);
-  width: var(--nav-icon);
-  right: var(--padding);
-} 
-
-.crossbars > .bar {
-  background-color: currentcolor;
-  height: 90%;
-  width: 20%;
-  position: absolute;
-  right: 40%;
-  top: 8%;
-}
-
-.crossbars > .bar1 {
-  transform: rotate(45deg);
-}
-
-.crossbars > .bar2 {
-  transform: rotate(-45deg);
-}
-*/
 
 .m-links {
   top: calc(var(--padding)*3);
