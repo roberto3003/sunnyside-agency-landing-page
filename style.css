@@ -101,7 +101,7 @@ header {
 
 .main-nav {
   width: 95%;
-  margin-block-start: var(--padding);
+  margin: var(--padding) 0;
   align-items: center;
   justify-content: flex-end;
   gap: 1em;
