@@ -120,8 +120,18 @@ header {
 }
 
 .main-nav .links {
-  display: none;
   gap: 1em;
+}
+
+
+
+.main-nav .links > * {
+  position: absolute;
+  left: -999px;
+}
+
+.main-nav .links > *:focus {
+  position: initial;
 }
 
 .main-nav label {
@@ -233,8 +243,9 @@ label input:checked ~ * {
 }
 
 @media only screen and (min-width: 1115px) {
-  .main-nav  .links {
-	display: flex;
+  .main-nav  .links > * {
+  position: initial;
+  left: auto;
   }
   .main-nav label {
 	display: none;
