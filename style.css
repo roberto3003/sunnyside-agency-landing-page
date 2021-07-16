@@ -61,7 +61,6 @@ p {
 
 /* ****************** Mobile Navigation  ****************************/
 
-/* ****************************************************************** */
 
 
 
@@ -110,7 +109,7 @@ left: -999px;
 
 .main-nav {
   width: 95%;
-  margin: var(--padding) 0;
+  height: 4em;
   align-items: center;
   justify-content: flex-end;
   gap: 1em;
@@ -189,22 +188,6 @@ label input:checked ~ * {
   display: block;
 }
 
-.hamburger .bar {
-  background-color: currentcolor;
-  width: 70%;
-  height: 15%;
-}
-
-/*
-.frame {
-  margin-inline-start: auto;
-  display: none;
-  height: var(--nav-icon);
-  aspect-ratio: 1/1;
-  border: 1px solid currentcolor;
-}
-*/
-
 .crossbars {
   margin-inline-start: auto;
   display: none;
@@ -241,6 +224,8 @@ label input:checked ~ * {
   }
 }
 
+
+/* ****************************************************************** */
 
 
 article {
