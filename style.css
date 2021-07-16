@@ -30,7 +30,7 @@
   --theme: var(--white);
   --medium: lavender;
   --contrast: lightsteelblue;
-  --accent: red;
+  --accent: blueviolet;
   --white: white;
   --black: rgba(46, 49, 49, 1);
   --shadow: 0 0.25vw 1vw  0 rgba(0,0,0,0.2);
@@ -177,7 +177,7 @@ label input {
   display: none;
 }
 
-
+/*
 .hamburger {
   margin-inline-start: auto;
   display: flex;
@@ -187,7 +187,11 @@ label input {
   height: var(--nav-icon);
   aspect-ratio: 1/1;
 }
+*/
 
+.hamburger span {
+  font-size: 2em;
+}
 
 label input:checked ~ .hamburger {
   display: none;
@@ -212,6 +216,15 @@ label input:checked ~ * {
 }
 
 .crossbars {
+  position: absolute;
+}
+
+.crossbars span {
+  font-size: 2em;
+}
+
+/*
+.crossbars {
   position: fixed;
   height: var(--nav-icon);
   width: var(--nav-icon);
@@ -234,10 +247,11 @@ label input:checked ~ * {
 .crossbars > .bar2 {
   transform: rotate(-45deg);
 }
+*/
 
 .m-links {
   top: calc(var(--padding)*3);
-  right: var(--padding);
+  right: calc(var(--padding)*0.5);
   font-size: 1em;
   display: none;
   position: fixed;
