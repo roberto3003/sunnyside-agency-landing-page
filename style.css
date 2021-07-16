@@ -95,6 +95,10 @@ header {
   min-width: 300px;
 }
 
+.nav-wrapper {
+  width: 100%;
+}
+
 .main-nav {
   width: 95%;
   margin-block-start: var(--padding);
@@ -133,16 +137,29 @@ label input {
   display: none;
 }
 
-.bg-mobile {
-  width: 100vw;
-  height: 200vh;
+.bg-mobile, .bg-m-menu {
   position: absolute;
   right: 0;
   top: 0;
-  opacity: 0.97;
+}
+
+
+.bg-mobile {
+  width: 100vw;
+  height: 200vh;
+  opacity: 0.6;
+  background-color: var(--contrast);
+  display: none;
+}
+
+.bg-m-menu {
+  width: 10em;
+  height: 14em;
+  opacity: 0.95;
   background-color: var(--bg-color);
   display: none;
 }
+
 
 .hamburger {
   margin-inline-start: auto;
