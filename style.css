@@ -189,15 +189,12 @@ label input:checked ~ * {
 }
 
 .crossbars {
+  font-size: 2em;
   margin-inline-start: auto;
   display: none;
   position: fixed;
   top: var(--padding);
   right: var(--padding);
-}
-
-.crossbars a {
-  font-size: 2em;
 }
 
 .m-links {
