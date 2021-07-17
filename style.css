@@ -145,8 +145,10 @@ left: -999px;
 
 .m-nav {
   position: fixed;
-  top: 0.5em;
+  top: 0;
   right: 0;
+  padding: 0.75em;
+  background-color: var(--bg-color);
 }
 
 .m-nav input {
