@@ -140,6 +140,26 @@ left: -999px;
   position: initial;
 }
 
+.m-nav input {
+  display:none;
+}
+
+
+.m-menu {
+  margin-left: 1em;
+}
+
+
+.m-links {
+  margin-left: 9999px;
+  transition: all 0.5s;
+}
+
+#m-menu:checked ~ * {
+  margin-left: 1em;
+}
+
+
 /*
 .main-nav label {
   display: flex;
