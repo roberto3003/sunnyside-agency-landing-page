@@ -150,15 +150,24 @@ left: -999px;
 }
 
 
-.m-links {
+#m-menu ~ * {
   margin-left: 9999px;
   transition: all 0.5s;
+}
+
+#m-menu ~ label {
+  margin-left: 1em;
+  font-size: 3em;
 }
 
 #m-menu:checked ~ * {
   margin-left: 1em;
 }
-
+ 
+#m-menu:checked ~ label {
+  display: none;
+}
+ 
 
 /*
 .main-nav label {
