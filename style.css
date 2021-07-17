@@ -140,6 +140,7 @@ left: -999px;
   position: initial;
 }
 
+/*
 .main-nav label {
   display: flex;
 }
@@ -149,7 +150,6 @@ left: -999px;
   cursor: pointer;
 }
 
-/*
 label input {
   display: none;
 }
