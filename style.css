@@ -140,31 +140,38 @@ left: -999px;
   position: initial;
 }
 
+
+
+
+.m-nav {
+  position: fixed;
+  top: 0.5em;
+  right: 0;
+}
+
 .m-nav input {
   display:none;
 }
 
 
-.m-menu {
-  margin-left: 1em;
-}
-
-
-#m-menu ~ * {
+.m-menu ~ * {
+  position: fixed;
   margin-left: 9999px;
   transition: all 0.5s;
 }
 
-#m-menu ~ label {
+.m-menu ~ label {
+  position: relative;
   margin-left: 1em;
-  font-size: 3em;
+  font-size: 2em;
 }
 
-#m-menu:checked ~ * {
+.m-menu:checked ~ * {
+  position: relative;
   margin-left: 1em;
 }
  
-#m-menu:checked ~ label {
+.m-menu:checked ~ label {
   display: none;
 }
  
