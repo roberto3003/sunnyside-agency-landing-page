@@ -3,7 +3,7 @@
   --gap: 0em;
   --font-size: clamp(1rem, 1.25vw, 2.5rem);
   --letter-spacing: 0.3em;
-  --nav-icon: 3em;
+  --nav-icon: 2em;
 }
 
 /* dark-theme colors */
@@ -153,20 +153,26 @@ left: -999px;
   display:none;
 }
 
-
 .m-menu ~ * {
-  position: fixed;
-  margin-left: 9999px;
-  transition: all 0.5s;
+  display: none;
 }
 
 .m-menu ~ label {
+  display: block;
   position: relative;
   margin-left: 1em;
-  font-size: 2em;
+}
+
+.hamburger, .crossbars {
+  font-size: var(--nav-icon);
+}
+
+.crossbars {
+  text-align: right;
 }
 
 .m-menu:checked ~ * {
+  display: block;
   position: relative;
   margin-left: 1em;
 }
