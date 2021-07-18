@@ -189,13 +189,20 @@ left: -999px;
 .m-menu:checked ~ * {
   display: block;
   position: relative;
-  margin-left: 1em;
 }
  
 .m-menu:checked ~ label {
   display: none;
 }
  
+.m-links {
+  list-style-type: none;
+  padding: 0;
+}
+
+.m-links li {
+  line-height: 2;
+}
 
 /*
 .main-nav label {
