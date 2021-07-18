@@ -67,14 +67,6 @@ hr {
 
 /* ****************** Mobile Navigation  ****************************/
 
-
-
-
-input {
-  font: inherit;
-}
-
-
 header {
   background-image: url('./images/desktop/image-header.jpg');
   width: 100%;
@@ -105,11 +97,9 @@ left: -999px;
 }
 
 .main-nav {
-  width: 95%;
   height: 4em;
+  margin: 0 1em;
   align-items: center;
-  justify-content: flex-end;
-  gap: 1em;
 }
 
 .logo {
@@ -128,23 +118,9 @@ left: -999px;
   gap: 1em;
 }
 
-
 .main-nav .links > * {
   display: none;
 }
-
-/*
-.main-nav .links > * {
-  position: absolute;
-  left: -999px;
-}
-
-.main-nav .links > *:focus {
-  position: initial;
-}
-*/
-
-
 
 .m-nav {
   position: absolute;
@@ -166,20 +142,6 @@ left: -999px;
   display: block;
   position: relative;
 }
-
-/*
-.bg-nav {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 100vw;
-  background-color: var(--contrast);
-  z-index: -1;
-}
-*/
-  
-
 .hamburger, .crossbars {
   font-size: var(--nav-icon);
 }
@@ -214,95 +176,6 @@ left: -999px;
 	display: none;
   }
 }
-
-
-/*
-.main-nav label {
-  display: flex;
-}
-
-
-.main-nav label:hover {
-  cursor: pointer;
-}
-
-label input {
-  display: none;
-}
-
-.bg-mobile, .bg-m-menu {
-  position: fixed;
-  right: 0;
-  top: 0;
-}
-
-
-.bg-mobile {
-  width: 100vw;
-  height: 100vh;
-  opacity: 0.6;
-  background-color: var(--contrast);
-  display: none;
-}
-
-.bg-m-menu {
-  width: 10em;
-  height: 14em;
-  opacity: 0.95;
-  background-color: var(--bg-color);
-  display: none;
-}
-
-.hamburger span {
-  font-size: 2em;
-}
-
-label input:checked ~ .hamburger {
-  display: none;
-}
-
-label input:checked ~ * {
-  display: block;
-}
-
-.crossbars {
-  font-size: 2em;
-  margin-inline-start: auto;
-  display: none;
-  position: fixed;
-  top: var(--padding);
-  right: var(--padding);
-}
-
-.m-links {
-  top: calc(var(--padding)*3);
-  right: calc(var(--padding)*0.5);
-  font-size: 1em;
-  display: none;
-  position: fixed;
-  line-height: 2;
-  padding: var(--padding);
-}
-
-.m-links a {
-  display: block;
-}
-
-@media only screen and (min-width: 1115px) {
-  .main-nav  .links > * {
-  position: initial;
-  left: auto;
-  }
-   .main-nav label {
-	display: none;
-  } 
-}
-*/
-
-
-
-
-
 
 
 /* ****************************************************************** */
