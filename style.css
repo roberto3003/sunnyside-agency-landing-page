@@ -165,7 +165,6 @@ left: -999px;
 .m-menu ~ label {
   display: block;
   position: relative;
-  margin-left: 1em;
 }
 
 /*
