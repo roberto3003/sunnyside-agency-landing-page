@@ -193,6 +193,11 @@ article {
   background-image: url('./images/desktop/image-stand-out.jpg');
 }
 
+.article3 article {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .article-left {
 background-image: url('./images/desktop/image-graphic-design.jpg');
 }
