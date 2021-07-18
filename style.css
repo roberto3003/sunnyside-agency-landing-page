@@ -86,7 +86,7 @@ left: -999px;
 }
 
 .skip-main:focus {
-  position: initial;
+  left: 1em;
 }
 
 .bg-image {
