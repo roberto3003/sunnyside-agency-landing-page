@@ -395,6 +395,10 @@ a:visited {
 
 .img-small {
   height: 3em;
+  width: 3em;
+  margin: var(--padding)  auto;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .img-small img {
@@ -407,4 +411,6 @@ a:visited {
   align-items: start;
 }
 
-
+.footer > .container, .social {
+  gap : 1em;
+}
